@@ -11,7 +11,7 @@ public class EmptyField implements Field{
     }
 
     @Override
-    public void refresh() {
+    public void refreshField() {
 
     }
 }
