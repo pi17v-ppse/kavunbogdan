@@ -9,5 +9,7 @@ public class MainConfiguration {
 
     }
 
-
+    public void loadGame() {
+        
+    }
 }

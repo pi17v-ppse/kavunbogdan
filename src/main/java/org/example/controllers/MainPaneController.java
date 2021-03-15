@@ -9,6 +9,6 @@ public class MainPaneController {
     }
 
     public void exitGame() {
-        
+
     }
 }
