@@ -1,2 +1,4 @@
-package org.example.items;public class Flag {
+package org.example.items;
+
+public class Flag {
 }

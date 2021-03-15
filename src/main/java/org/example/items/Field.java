@@ -1,2 +1,5 @@
-package org.example.items;public class Field {
+package org.example.items;
+
+public interface Field {
+
 }
