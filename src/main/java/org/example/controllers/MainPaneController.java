@@ -7,4 +7,8 @@ public class MainPaneController {
         MainConfiguration mainConfiguration = new MainConfiguration();
         mainConfiguration.loadConfig();
     }
+
+    public void exitGame() {
+        
+    }
 }

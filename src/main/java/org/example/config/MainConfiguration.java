@@ -6,6 +6,8 @@ public class MainConfiguration {
     }
 
     public void startNewGame() {
-        
+
     }
+
+
 }
