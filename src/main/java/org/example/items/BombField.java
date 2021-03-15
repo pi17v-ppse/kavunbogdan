@@ -11,7 +11,7 @@ public class BombField implements Field{
     }
 
     @Override
-    public void refreshThis() {
+    public void refreshField() {
 
     }
 }

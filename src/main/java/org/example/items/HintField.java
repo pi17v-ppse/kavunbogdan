@@ -11,7 +11,8 @@ public class HintField implements Field{
     }
 
     @Override
-    public void refreshThis() {
+
+    public void refreshField() {
 
     }
 }

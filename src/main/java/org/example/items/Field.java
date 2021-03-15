@@ -2,5 +2,5 @@ package org.example.items;
 
 public interface Field {
     public void open();
-    public void refreshThis();
+    public void refreshField();
 }
