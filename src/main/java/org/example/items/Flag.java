@@ -7,4 +7,8 @@ public class Flag {
     public void Flag(int fieldNumber) {
         this.fieldNumber = fieldNumber;
     }
+
+    public void setFlag() {
+        
+    }
 }
