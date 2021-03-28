@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter lang="ru">                                        
+    <title>Сапер</title>
+    <sect1>
+        <title>Описание приложения</title>
+        <para>
+            Плоское или объёмное игровое поле разделено на смежные ячейки (квадраты, шестиугольники, кубы и т. п.),
+            некоторые из которых «заминированы»; количество «заминированных» ячеек известно.
+            Целью игры является открытие всех ячеек, не содержащих мины.
+            Игрок открывает ячейки, стараясь не открыть ячейку с миной. Открыв ячейку с миной, он проигрывает.
+        </para>
+        <para>
+            В приложении имеются вкладки "Игра" и "Справка". Нажав на вкладку "Игра" появляется выпадающее меню, где 
+            можно начать новую игру, выйти из игры и загрузить игру. При нажатии на вкладку "Справка" появляется справочное меню.
+        </para>
+        <para>
+            Поля (клетки) могут быть нескольких видов:            
+        </para>
+        <orderedlist>
+            <listitem>
+                <para>Пустое поле</para>
+            </listitem>
+            <listitem>
+                <para>Поле с бомбой</para>
+            </listitem>
+            <listitem>
+                <para>Поле с подсказкой</para>
+            </listitem>
+            <listitem>
+                <para>Поле с флагом</para>
+            </listitem>
+          </orderedlist> 
+    </sect1>
+    <sect1>
+        <title>Скриншоты приложения</title>
+        <figure>
+            <title>Главная форма</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="https://lh3.googleusercontent.com/proxy/mKqIc0jdu3R48qIACCLEp4a13yzB7tBnsZTs4WeXj4Q-gMA26nDSBCCR4VIsE99-IFU7KOJklMNwz-1RT3JgAyXI1jYO1nTCTTyiyB_04xXY4n3hUxqhYsvmhZd-KLn5Bbzzfaw" width="700"/>
+                </imageobject>
+            </mediaobject>
+        </figure>
+        
+        <figure>
+            <title>Поражение</title>
+            <mediaobject>
+                <imageobject>
+                    <imagedata fileref="https://lh3.googleusercontent.com/proxy/fFjpk8dn7WfKpmT7BX9Mxi4mfrXF1KYLr6syTp24kb7Xki4J6MPyHs4VHgMtgbQ8VamsqBBEWT9AuFYebBSxv79dLasvL5MXBSLQGM27PVtOxZ2rLlk33tYxvj1AcnEEEYJSFAMp8g" width="700" />
+                </imageobject>
+            </mediaobject>
+        </figure>
+    </sect1>
+<sect1>
+    <title>Пример кода</title>
+    <para>
+        <example>
+            <title></title>
+            <para>
+                <programlisting>     
+public class MainPaneController {
+
+     /**
+     * 
+     * Метод, который отображает главное окно и создает все классы-слушатели
+     *
+     * @return void
+     */
+    public void startMainPane() {
+        MainConfiguration mainConfiguration = new MainConfiguration();
+        mainConfiguration.loadConfig();
+    }
+
+    /**
+     * 
+     * Метод, который закрывает главное окно и все потоки не демоны
+     *
+     * @return void
+     */
+    public void exitGame() {
+
+    }
+}
+                 </programlisting>
+            </para>
+        </example>  
+    </para>
+</sect1>
+</chapter>
